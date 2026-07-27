@@ -33,3 +33,16 @@ const myFunction = function(){
 }
 
 console.log(heros);
+
+
+
+
+
+//stack (primitive), heap(non-primitive)
+
+let myYoutube="vissdotcom"
+
+let anothername=myYoutube
+anothername="dev"
+
+console.log(anothername);
